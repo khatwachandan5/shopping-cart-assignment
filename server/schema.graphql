@@ -1,0 +1,32 @@
+type Query {
+  banners: [Banner]
+  category(id: ID!): Category
+  categories: [Category]
+  product(id: ID!): Product
+  products: [Product]
+}
+
+type Banner {
+  id: ID
+  bannerImageUrl: String
+  bannerImageAlt: String
+}
+
+type Category {
+  id: ID!
+  name: String
+  key: String
+  description: String
+  enabled: Boolean
+  imageUrl: String
+  products: [Product]
+}
+
+type Product {
+  id: ID!
+  name: String
+  imageURL: String
+  description: String
+  price: Int
+  category: Category
+}

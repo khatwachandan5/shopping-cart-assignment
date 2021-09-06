@@ -14,7 +14,7 @@ export default function Header({count}) {
           <nav>
             <UnOrderList>
               <li>
-                <Link href="/#">
+                <Link href="/category">
                   Home
                 </Link>
               </li>

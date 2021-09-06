@@ -13,3 +13,7 @@ npm run start
 yarn install
 yarn start
 ```
+
+# need to remove un used packages from packages, such as canned, axios
+# update the code based on backend fetching 
+# integrate graphql in clinet to get the server qraphql data

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const MainStyles = styled.main`
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 `;
 export default function Page({ children }) {
   return (

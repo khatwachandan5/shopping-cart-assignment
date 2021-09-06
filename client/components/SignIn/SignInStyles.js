@@ -66,14 +66,20 @@ export const AuthForm = styled.div`
       color: #c1354d;
     }
   }
-  form input[type=submit] {
-    width: 60%;
+  form input[type="submit"] {
     background-color: #b90e3fd9;
-    color: white;
+    color: #ffffff;
     border: none;
-    font-weight: 600;
+    border-radius: 5px;
+    font-weight: 400;
     text-align: center;
     padding: 0.8rem;
-    cursor: pointer;
+    &:hover {
+      cursor: pointer;
+      background-color: #ffffff;
+      border: 2px solid #b90e3fd9;
+      color: #b90e3fd9;
+      padding: 10px;
+    }
   }
 `;
